@@ -2,15 +2,10 @@ name: CI DevOps 2025
 
 on:
   push:
-    branches: [ main ]
-    paths-ignore:
-      - 'flask-app/**'
-      - 'tp1/**'
+    branches: [ main , develop ]      
 
   pull_request:
-    paths-ignore:
-      - 'flask-app/**'
-      - 'tp1/**'
+
 
 jobs:
   test-backend:

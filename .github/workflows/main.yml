@@ -29,5 +29,5 @@ jobs:
 
       # 3️⃣ Build et test Maven
       - name: Build and test with Maven
-        run: mvn clean verify
+        run: mvn clean verify  --../tp2/tp2/simple-api
 
